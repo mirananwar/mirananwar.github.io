@@ -1,0 +1,226 @@
+/* nav bar */
+    /* right side of nav bar */
+	.navbar .nav-link {
+		color: black;
+		font-size: 20px;
+		margin-left: 10px;
+		font-family:Andale Mono, monospace	;
+
+	}
+	
+	/* left side of nav bar */
+	.navbar .navbar-brand {
+		color: black;
+		font-size: 30px;
+		font-family: URW Chancery L, cursive	;
+	}
+	
+	
+	/* Change navbar styling on scroll */
+	.navbar.active {
+		background: #fff;
+		box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+	}
+	
+
+/* recent projects */
+	.projBtn{
+		font-family: Jazz LET, fantasy;
+	}
+
+
+/* owl carousel */	
+	.shadow-effect {
+				background: #fff;
+				padding: 20px;
+				border-radius: 10px;
+				text-align: center;
+				margin-right: 40px;
+				border:2px solid #ECECEC;
+				/* box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02); */
+			}
+			#testimonials-list .shadow-effect p {
+				font-family: "Lato", sans-serif;
+				font-size: 15pt;
+				line-height: 1.5;
+				margin: 10px 0 0 0;
+				font-weight: 800;
+				text-transform: uppercase;
+
+			}
+	
+
+/* banner */
+	#banner {
+		background-color: black;
+		background-attachment: scroll, fixed, fixed;
+		background-image: url(bgImage.jpg);
+		background-position: center, bottom, top;
+		background-size: cover;
+		color: #fff;
+		padding: 12em;
+        margin: 100px, auto;
+		position: relative;
+		text-align: center;
+	}
+
+    /* banner inner square*/
+    #banner .inner {
+        background: #1d2726;
+        background: rgba(230, 230, 230, 0.611);
+        display: inline-block;
+        padding: 3.5em 5em;
+        position: relative;
+        vertical-align: middle;
+        z-index: 10;
+        text-shadow: 2px 2px 2px black;
+        border-radius: 10px;
+
+	}
+	
+	#banner .inner h2{
+		font-size: 2em;
+	}
+
+        /* banner seperation*/
+        #banner .inner p {
+            font-size: 1em;
+            letter-spacing: 0.125em;
+            line-height: 2em;
+            margin: 2em 0 0 0;
+            padding: 2em 0 0 0;
+            position: relative;
+            text-transform: uppercase;
+            top: -0.25em;
+        }
+
+            #banner .inner p:before {
+                background: #888;
+                background: rgba(255, 103, 103, 0.25);
+                content: '';
+                display: block;
+                height: 3px;
+                left: 50%;
+                margin: 0 0 0 -3em;
+                position: absolute;
+                top: 0;
+                width: 6em;
+            }
+
+/* Wrapper */
+.wrapper {
+	padding: 3em 0 3em 0;
+}
+
+
+
+/* about me */
+#about {
+	padding-top: 75px;
+	background: rgb(220, 220, 220);
+    color: #333;
+	position: relative;
+	
+}
+
+#about img{
+	margin-left: 0px;
+	margin-bottom: 20px;
+	max-width: 100%;
+	height: auto;
+}
+
+
+#about p {
+	text-align: justify;
+	margin-right: 30px;
+
+}	
+
+
+
+/* Travel */
+#travel{
+	color: black;
+	background: rgb(220, 220, 220);
+}
+
+
+/* Basic */
+	body, input, select, textarea {
+		color: #4a4a4a;
+		font-family: "Open Sans", sans-serif;
+		font-size: 13pt;
+		font-weight: 300;
+		line-height: 1.75em;
+	}
+
+	
+	em, i {
+		font-style: italic;
+	}
+
+	p {
+		margin: 0 0 2em 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #0e0000;
+		font-weight: 600;
+		letter-spacing: 0.125em;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+		font-size: 1.5em;
+
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+	
+/* Section/Article */
+	section.special, article.special {
+		text-align: center;
+	}
+
+	header.major {
+		position: relative;
+	}
+
+		header.major:after {
+			background: rgb(230, 99, 99);
+			content: '';
+			display: inline-block;
+			height: 2px;
+			margin: 0 0 2em 0;
+			width: 6em;
+		}
+
+
+	
+	/* Footer */
+	#footer {
+		background: #1d2726;
+		color: #888;
+		padding: 4em 0;
+		text-align: center;
+	}
+
+		#footer .icons {
+			padding-left: 0;
+		}
+
+			#footer .icons li {
+				padding: 0 1em 0 0;
+				display: inline-block;
+
+			}
+		
+		#footer .copyright {
+			font-size: 0.9em;
+			margin: 2em 0 0 0;
+		}
+
